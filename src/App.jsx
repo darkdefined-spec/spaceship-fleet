@@ -3,7 +3,7 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import { PerspectiveCamera, Environment, ContactShadows, Float, useGLTF } from '@react-three/drei'
 import { EffectComposer, Bloom, ChromaticAberration } from '@react-three/postprocessing'
 import * as THREE from 'three'
-import { StarBackground } from './Stars'
+import { StarBackground } from './stars'
 
 const SHIP_DATA = [
   { id: 1, name: "X-WING INTERCEPTOR", themeColor: "#22d3ee", class: "Heavy Fighter", modelPath: "/models/ship1.glb", stats: { speed: 85, attack: 92, defense: 40, energy: 60 }, lore: "Modified rebel interceptor with twin-core engines optimized for atmospheric dogfights." },
