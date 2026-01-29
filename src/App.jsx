@@ -137,9 +137,10 @@ export default function App() {
             </div>
 
             <div className="event-log">
-              <div className="log-line">> SYNCING_BIOMETRICS...</div>
-              <div className="log-line" style={{color: theme}}>> DEPLOYMENT_READY</div>
-            </div>
+ 	      {/* Replace > with &gt; */}
+  	      <div className="log-line">&gt; SYNCING_BIOMETRICS...</div>
+  	      <div className="log-line" style={{color: theme}}>&gt; DEPLOYMENT_READY</div>
+	    </div>
           </div>
         </div>
         
